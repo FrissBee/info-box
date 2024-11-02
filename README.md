@@ -186,7 +186,7 @@ Example:
 ```js
 const infoBox = document.querySelector('info-box');
 
-infoBox.setMultipleLines('<h1>Hello World!</h1>');
+infoBox.showInfoBox('<h1>Hello World!</h1>');
 ```
 
 ## Design with CSS
