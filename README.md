@@ -62,7 +62,6 @@ Use the function `showInfoBox()` (see below) to display the _Info Box_ and pass 
         right-space="1.2rem"
       ></info-box>
 
-      <!-- 4. The HTML that an Info Box needs. -->
       <!-- Your code... -->
     </main>
   </body>
@@ -83,7 +82,7 @@ All attributes can also be set with the JavaScript function `setAttribute()`, bu
 
   Example: `time-out="3000"`.
 
-  **Note:** If the value `"0"` is specified, the info box is not hidden and must be clicked away using the close icon button.
+  **Note:** If the value `"0"` is specified, the info box is not hidden and must be clicked away using the close icon button. In this case, an “OK” button is displayed below the text, which can be used to close the info box.
 
 - `style-content`
 
@@ -159,7 +158,7 @@ All attributes can also be set with the JavaScript function `setAttribute()`, bu
 
   A value is not specified.
 
-- `is-reverse'`
+- `is-reverse`
 
   By default (the attribute is not specified), additional info boxes are added at the bottom. If the `is-reverse` attribute is set, additional info boxes are added at the top.
 
@@ -201,6 +200,7 @@ You can design:
 - `container-content`
 - `container-close`
 - `style-icon` => similar to the attribute `style-icon`
+- `btn-ok` => style the "OK" Button (when the attribute `time-out` is `0`)
 
 Here a simple example:
 
